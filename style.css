@@ -16,55 +16,54 @@ body {
 .left {
 	height: 100vh;
 	width: 50vw;
-	display: flex;
-	flex-wrap: wrap
+	display: block;
+	
 }
 .black1 {
 	background-color: black;
-	height: 50%;
-	width: 50%;
+	height: 25%;
+	width: 100%;
 }
 .gray1 {
 	background-color: #656161;
-	height: 50%;
-	width: 50%;
+	height: 25%;
+	width: 100%;
 }
 .black2 {
-	background-color: #656161;
-	height: 50%;
-	width: 50%;
+	background-color: black;
+	height: 25%;
+	width: 100%;
 }
 .gray2 {
-	background-color: black;
-	height: 50%;
-	width: 50%;
+	background-color: #656161;
+	height: 25%;
+	width: 100%;
 }
 
 .right {
 	height: 100vh;
 	width: 50vw;
-	display: flex;
-	flex-wrap: wrap
+	display: block;
 }
 .black3 {
-	background-color: black;
-	height: 50%;
-	width: 50%;
+	background-color: #656161;
+	height: 25%;
+	width: 100%;
 }
 .gray3 {
-	background-color: #656161;
-	height: 50%;
-	width: 50%;
+	background-color: black;
+	height: 25%;
+	width: 100%;
 }
 .black4 {
 	background-color: #656161;
-	height: 50%;
-	width: 50%;
+	height: 25%;
+	width: 100%;
 }
 .gray4 {
 	background-color: black;
-	height: 50%;
-	width: 50%;
+	height: 25%;
+	width: 100%;
 }
 @media screen and (max-width: 800px) {
 	.left {
