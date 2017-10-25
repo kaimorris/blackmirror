@@ -1,0 +1,115 @@
+/* Paste in code from your old files to save time and avoid typos! */
+body {
+	margin: 0;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-wrap: wrap;
+}
+.text {
+	color: white;
+	font-family: proxima-nova, sans-serif;
+	font-style: normal;
+	font-weight: 700;
+}
+
+.left {
+	height: 100vh;
+	width: 50vw;
+	display: block;
+	
+}
+.black1 {
+	background-color: black;
+	height: 25%;
+	width: 100%;
+}
+.gray1 {
+	background-color: #656161;
+	height: 25%;
+	width: 100%;
+}
+.black2 {
+	background-color: black;
+	height: 25%;
+	width: 100%;
+}
+.gray2 {
+	background-color: #656161;
+	height: 25%;
+	width: 100%;
+}
+
+.right {
+	height: 100vh;
+	width: 50vw;
+	display: block;
+}
+.black3 {
+	background-color: #656161;
+	height: 25%;
+	width: 100%;
+}
+.gray3 {
+	background-color: black;
+	height: 25%;
+	width: 100%;
+}
+.black4 {
+	background-color: #656161;
+	height: 25%;
+	width: 100%;
+}
+.gray4 {
+	background-color: black;
+	height: 25%;
+	width: 100%;
+}
+@media screen and (max-width: 800px) {
+	.left {
+		width: 100vw;
+}
+	.black1 {
+	background-color: black;
+	height: 25vh;
+	width: 100vw;
+}
+.gray1 {
+	background-color: #656161;
+	height: 25vh;
+	width: 100vw;
+}
+.black2 {
+	background-color: black;
+	height: 25vh;
+	width: 100vw;
+}
+.gray2 {
+	background-color: #656161;
+	height: 25vh;
+	width: 100vw;
+}
+	.right {
+		width: 100vw;
+}
+	.black3 {
+	background-color: black;
+	height: 25vh;
+	width: 100vw;
+}
+.gray3 {
+	background-color: #656161;
+	height: 25vh;
+	width: 100vw;
+}
+.black4 {
+	background-color: black;
+	height: 25vh;
+	width: 100vw;
+}
+.gray4 {
+	background-color: #656161;
+	height: 25vh;
+	width: 100vw;
+}
+}
