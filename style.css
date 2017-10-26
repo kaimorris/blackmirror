@@ -6,6 +6,10 @@ body {
 	display: flex;
 	flex-wrap: wrap;
 }
+img {
+	max-width: 100%;
+	max-height: 100%
+}
 .text {
 	color: white;
 	font-family: proxima-nova, sans-serif;
@@ -24,58 +28,83 @@ body {
 	justify-content: center;
 	height: inherit;
 }
-
+.playtest {
+	background:url(playtest.jpg);
+}
+.nosedive {
+	background:url(nosedive.png);
+}
+.fmf {
+	background:url(fmf.jpg);
+}
+.entirehistory {
+	background:url(entirehistory.jpg);
+}
+.brb {
+	background:url(brb.png);
+}
+.whitebear {
+	background:url(whitebear.jpg);
+}
+.sanjun {
+	background:url(sanjun.jpg);
+}
+.hated {
+	background:url(hated.jpg);
+}
 .left {
 	height: 100vh;
 	width: 50vw;
-	display: block;
+	display: flex;
+	flex-wrap: wrap;
 	
 }
 .black1 {
 	background-color: black;
-	height: 25%;
-	width: 100%;
+	height: 50%;
+	width: 50%;
 }
 .gray1 {
 	background-color: #656161;
-	height: 25%;
-	width: 100%;
+	height: 50%;
+	width: 50%;
 }
 .black2 {
 	background-color: black;
-	height: 25%;
-	width: 100%;
+	height: 50%;
+	width: 50%;
 }
 .gray2 {
 	background-color: #656161;
-	height: 25%;
-	width: 100%;
+	height: 50%;
+	width: 50%;
 }
 
 .right {
 	height: 100vh;
 	width: 50vw;
-	display: block;
+	display: flex;
+	flex-wrap: wrap;
 }
 .black3 {
 	background-color: #656161;
-	height: 25%;
-	width: 100%;
+	height: 50%;
+	width: 50%;
 }
 .gray3 {
 	background-color: black;
-	height: 25%;
-	width: 100%;
+	height: 50%;
+	width: 50%;
 }
 .black4 {
 	background-color: #656161;
-	height: 25%;
-	width: 100%;
+	height: 50%;
+	width: 50%;
 }
 .gray4 {
 	background-color: black;
-	height: 25%;
-	width: 100%;
+	height: 50%;
+	width: 50%;
 }
 @media screen and (max-width: 800px) {
 	.left {
