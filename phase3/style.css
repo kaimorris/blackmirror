@@ -19,25 +19,25 @@ body {
 	display: block;
 	
 }
-.black1 {
+.box1 {
 	background-color: black;
-	height: 25%;
-	width: 100%;
+	height: 50%;
+	width: 50%;
 }
-.gray1 {
+.box2 {
 	background-color: #656161;
-	height: 25%;
-	width: 100%;
+	height: 50%;
+	width: 50%;
 }
-.black2 {
+.box3 {
 	background-color: black;
-	height: 25%;
-	width: 100%;
+	height: 50%;
+	width: 50%;
 }
-.gray2 {
+.box4 {
 	background-color: #656161;
-	height: 25%;
-	width: 100%;
+	height: 50%;
+	width: 50%;
 }
 
 .right {
@@ -45,24 +45,24 @@ body {
 	width: 50vw;
 	display: block;
 }
-.black3 {
+.box5 {
 	background-color: #656161;
-	height: 25%;
-	width: 100%;
+	height: 50%;
+	width: 50%;
 }
-.gray3 {
+.box6 {
 	background-color: black;
-	height: 25%;
-	width: 100%;
+	height: 50%;
+	width: 50%;
 }
-.black4 {
+.box7 {
 	background-color: #656161;
-	height: 25%;
-	width: 100%;
+	height: 50%;
+	width: 50%;
 }
-.gray4 {
+.box8 {
 	background-color: black;
-	height: 25%;
-	width: 100%;
+	height: 50%;
+	width: 50%;
 }
 }
