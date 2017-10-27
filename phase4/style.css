@@ -19,25 +19,25 @@ body {
 	display: block;
 	
 }
-.black1 {
+.box1 {
 	background-color: black;
-	height: 25%;
-	width: 100%;
+	height: 50%;
+	width: 50%;
 }
-.gray1 {
+.box2 {
 	background-color: #656161;
-	height: 25%;
-	width: 100%;
+	height: 50%;
+	width: 50%;
 }
-.black2 {
+.box3 {
+	background-color: #656161;
+	height: 50%;
+	width: 50%;
+}
+.box4 {
 	background-color: black;
-	height: 25%;
-	width: 100%;
-}
-.gray2 {
-	background-color: #656161;
-	height: 25%;
-	width: 100%;
+	height: 50%;
+	width: 50%;
 }
 
 .right {
@@ -45,69 +45,69 @@ body {
 	width: 50vw;
 	display: block;
 }
-.black3 {
-	background-color: #656161;
-	height: 25%;
-	width: 100%;
-}
-.gray3 {
+.box5 {
 	background-color: black;
-	height: 25%;
-	width: 100%;
+	height: 50%;
+	width: 50%;
 }
-.black4 {
+.box6 {
 	background-color: #656161;
-	height: 25%;
-	width: 100%;
+	height: 50%;
+	width: 50%;
 }
-.gray4 {
+.box7 {
+	background-color: #656161;
+	height: 50%;
+	width: 50%;
+}
+.box8 {
 	background-color: black;
-	height: 25%;
-	width: 100%;
+	height: 50%;
+	width: 50%;
 }
 @media screen and (max-width: 800px) {
-	.left {
-		width: 100vw;
+.left {
+width: 100vw;
 }
-	.black1 {
+	.box1 {
 	background-color: black;
 	height: 25vh;
 	width: 100vw;
 }
-.gray1 {
+	.box2 {
 	background-color: #656161;
 	height: 25vh;
 	width: 100vw;
 }
-.black2 {
+	.box3 {
 	background-color: black;
 	height: 25vh;
 	width: 100vw;
 }
-.gray2 {
+	.box4 {
 	background-color: #656161;
 	height: 25vh;
 	width: 100vw;
 }
-	.right {
-		width: 100vw;
+.right {
+width: 100vw;
 }
-	.black3 {
+	.box5 {
 	background-color: black;
 	height: 25vh;
 	width: 100vw;
 }
-.gray3 {
+	.box6 {
 	background-color: #656161;
 	height: 25vh;
 	width: 100vw;
 }
-.black4 {
+	.box7 {
 	background-color: black;
 	height: 25vh;
 	width: 100vw;
 }
-.gray4 {
+	.box8 {
 	background-color: #656161;
 	height: 25vh;
 	width: 100vw;
