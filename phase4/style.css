@@ -16,7 +16,8 @@ body {
 .left {
 	height: 100vh;
 	width: 50vw;
-	display: block;
+	display: flex;
+	flex-wrap: wrap;
 	
 }
 .box1 {
@@ -43,7 +44,8 @@ body {
 .right {
 	height: 100vh;
 	width: 50vw;
-	display: block;
+	display: flex;
+	flex-wrap: wrap;
 }
 .box5 {
 	background-color: black;
