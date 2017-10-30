@@ -61,8 +61,6 @@ img {
 }
 .box1 {
 	background-color: black;
-	background-size: contain;
-  	background-size: cover;
 	height: 50%;
 	width: 50%;
 }
