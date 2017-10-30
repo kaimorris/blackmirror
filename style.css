@@ -96,6 +96,8 @@ img {
 }
 .box5 {
 	background-color: #656161;
+	background-size: contain;
+  	background-size: cover;
 	height: 50%;
 	width: 50%;
 }
