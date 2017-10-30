@@ -13,6 +13,12 @@ img {
 a:hover {
     color: gray;
 }
+a:link {
+    color: white;
+}
+a:visited {
+    color: white;
+}
 .text {
 	color: white;
 	font-family: proxima-nova, sans-serif;
