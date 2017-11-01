@@ -12,6 +12,16 @@ body {
 	font-style: normal;
 	font-weight: 700;
 }
+.center-horizontal{
+  display: flex;
+	align-items:center;
+}
+
+.center-vertical{
+  display: flex;
+	justify-content: center;
+	height: inherit;
+}
 
 .box1 {
   background-color: black;
