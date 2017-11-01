@@ -12,25 +12,6 @@ body {
 	font-style: normal;
 	font-weight: 700;
 }
-.arrow-right {
-  width: 0; 
-  height: 0; 
-  border-top: 60px solid transparent;
-  border-bottom: 60px solid transparent;
-  
-  border-left: 60px solid white;
-}
-.center-horizontal{
-  display: flex;
-	align-items:center;
-}
-
-.center-vertical{
-  display: flex;
-	justify-content: center;
-	height: inherit;
-}
-
 .box1 {
   background-color: black;
 	height: 50%;
