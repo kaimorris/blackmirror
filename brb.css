@@ -18,7 +18,7 @@ body {
   border-top: 60px solid transparent;
   border-bottom: 60px solid transparent;
   
-  border-left: 60px solid green;
+  border-left: 60px solid white;
 }
 .center-horizontal{
   display: flex;
