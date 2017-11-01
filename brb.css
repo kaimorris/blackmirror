@@ -14,7 +14,7 @@ body {
 }
 .arrow-right {
   width: 0; 
-  height: 0; 
+  height: 2px; 
   border-top: 60px solid transparent;
   border-bottom: 60px solid transparent;
   
