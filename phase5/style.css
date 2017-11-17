@@ -1,1 +1,184 @@
+/* Paste in code from your old files to save time and avoid typos! */
+body {
+	margin: 0;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-wrap: wrap;
+}
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+a:link {
+text-decoration: none;
+    color: white;
+}
+a:visited {
+text-decoration: none;
+    color: white;
+}
+a:hover {
+text-decoration: none;
+    color: gray;
+}
+.text {
+	color: white;
+	font-family: proxima-nova, sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	text-align: center;
+	font-size: 50px;
+}
+.center-horizontal{
+  display: flex;
+	align-items:center;
+}
 
+.center-vertical{
+  display: flex;
+	justify-content: center;
+	height: inherit;
+}
+.playtest {
+	background:url(playtest.jpg);
+}
+.nosedive {
+	background:url(nosedive.png);
+}
+.fmf {
+	background:url(fmf.jpg);
+}
+.entirehistory {
+	background:url(entirehistory.jpg);
+}
+.brb {
+	background:url(brb.png);
+}
+.whitebear {
+	background:url(whitebear.jpg);
+}
+.sanjun {
+	background:url(sanjun.jpg);
+}
+.hated {
+	background:url(hated.jpg);
+}
+.left {
+	height: 100vh;
+	width: 50vw;
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+.box1 {
+	background-color: black;
+	background-size: contain;
+ 	background-size: cover;
+	height: 50%;
+	width: 50%;
+}
+.box2 {
+	background-color: #656161;
+	background-size: contain;
+  	background-size: cover;
+	height: 50%;
+	width: 50%;
+}
+.box3 {
+	background-color: black;
+	background-size: contain;
+ 	background-size: cover;
+	height: 50%;
+	width: 50%;
+}
+.box4 {
+	background-color: #656161;
+	background-size: contain;
+  	background-size: cover;
+	height: 50%;
+	width: 50%;
+}
+
+.right {
+	height: 100vh;
+	width: 50vw;
+	display: flex;
+	flex-wrap: wrap;
+}
+.box5 {
+	background-color: #656161;
+	background-size: contain;
+  	background-size: cover;
+	height: 50%;
+	width: 50%;
+}
+.box6 {
+	background-color: black;
+	background-size: contain;
+ 	background-size: cover;
+	height: 50%;
+	width: 50%;
+}
+.box7 {
+	background-color: #656161;
+	background-size: contain;
+  	background-size: cover;
+	height: 50%;
+	width: 50%;
+}
+.box8 {
+	background-color: black;
+	background-size: contain;
+  	background-size: cover;
+	height: 50%;
+	width: 50%;
+}
+@media screen and (max-width: 800px) {
+.left {
+width: 100vw;
+}
+	.box1 {
+	background-color: black;
+	height: 25vh;
+	width: 100vw;
+}
+	.box2 {
+	background-color: #656161;
+	height: 25vh;
+	width: 100vw;
+}
+	.box3 {
+	background-color: black;
+	height: 25vh;
+	width: 100vw;
+}
+	.box4 {
+	background-color: #656161;
+	height: 25vh;
+	width: 100vw;
+}
+.right {
+width: 100vw;
+}
+	.box5 {
+	background-color: black;
+	height: 25vh;
+	width: 100vw;
+}
+	.box6 {
+	background-color: #656161;
+	height: 25vh;
+	width: 100vw;
+}
+	.box7 {
+	background-color: black;
+	height: 25vh;
+	width: 100vw;
+}
+	.box8 {
+	background-color: #656161;
+	height: 25vh;
+	width: 100vw;
+}
+}
