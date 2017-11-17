@@ -1,0 +1,66 @@
+/* Paste in code from your old files to save time and avoid typos! */
+body {
+	margin: 0;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-wrap: wrap;
+}
+.text {
+	color: white;
+	font-family: proxima-nova, sans-serif;
+	font-style: normal;
+	font-weight: 700;
+}
+
+.box1 {
+  background-color: black;
+	height: 50%;
+	width: 50%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.box2 {
+	background-color: #656161;
+	height: 50%;
+	width: 50%;
+  display: flex;
+	flex-wrap: wrap;
+}
+.box3 {
+	background-color: #656161;
+	height: 50%;
+	width: 50%;
+  display: flex;
+	flex-wrap: wrap;
+}
+.box4 {
+	background-color: black;
+	height: 50%;
+	width: 50%;
+  display: flex;
+	flex-wrap: wrap;
+}
+
+@media screen and (max-width: 800px) {
+	.box1 {
+	background-color: black;
+	height: 25vh;
+	width: 100vw;
+}
+.box2 {
+	background-color: #656161;
+	height: 25vh;
+	width: 100vw;
+}
+.box3 {
+	background-color: black;
+	height: 25vh;
+	width: 100vw;
+}
+.box4 {
+	background-color: #656161;
+	height: 25vh;
+	width: 100vw;
+}
+}
