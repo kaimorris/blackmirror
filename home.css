@@ -87,7 +87,7 @@ text-decoration: none;
 	transition: 1.5s ease;
 }
 .text1 {
-	display: flex;
+	display: block;
 	align-items: center;
 	justify-content: center;
   opacity: 0;
@@ -95,14 +95,14 @@ text-decoration: none;
   top: 0px;
   left: 0px;
   font-weight: 50;
-  font-size: 10px;
+  font-size: 18px;
   color: white;
   background-color: black;
   height: 50%;
   width: 25%;
 }
 .text2 {
-	display: flex;
+	display: block;
 	align-items: center;
 	justify-content: center;
   opacity: 0;
@@ -110,13 +110,14 @@ text-decoration: none;
   top: 0px;
   left: 25vw;
   font-weight: 50;
+  font-size: 18px;
   color: white;
   background-color: black;
   height: 50%;
   width: 25%;
 }
 .text3 {
-	display: flex;
+	display: block;
 	align-items: center;
 	justify-content: center;
   opacity: 0;
@@ -124,6 +125,7 @@ text-decoration: none;
   bottom: 0px;
   left: 0px;
   font-weight: 50;
+  font-size: 18px;
   color: white;
   background-color: black;
   height: 50%;
@@ -150,7 +152,7 @@ text-decoration: none;
   opacity: 0;
   position: absolute;
   top: 0px;
-  right: 25vw;
+  left: 960px;
   font-weight: 50;
   color: white;
   background-color: black;
