@@ -12,6 +12,22 @@ body {
 	font-style: normal;
 	font-weight: 700;
 }
+.center-horizontal {
+  display: flex;
+	align-items:center;
+}
+.center-vertical {
+  display: flex;
+	justify-content: center;
+	height: inherit;
+}
+img {
+	max-height: 100%;
+	max-width: 100%;
+}
+.blackmirror {
+	content: url(blackmirror.jpg);
+}
 .video-container {
 	position:relative;
 	padding-bottom:56.25%;
