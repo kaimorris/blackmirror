@@ -41,21 +41,21 @@ img {
 	background-color: #656161;
 	height: 50%;
 	width: 50%;
-  display: flex;
+  	display: flex;
 	flex-wrap: wrap;
 }
 .box3 {
-	background-color: #656161;
+	background-color: black;
 	height: 50%;
 	width: 50%;
-  display: flex;
+  	display: flex;
 	flex-wrap: wrap;
 }
 .box4 {
 	background-color: black;
 	height: 50%;
 	width: 50%;
-  display: flex;
+  	display: flex;
 	flex-wrap: wrap;
 }
 
