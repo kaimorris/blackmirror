@@ -28,6 +28,9 @@ img {
 .blackmirror {
 	content: url(blackmirror.jpg);
 }
+.brb2 {
+	content: url(brb2.jpg);
+}
 .video-container {
 	position:relative;
 	padding-bottom:56.25%;
