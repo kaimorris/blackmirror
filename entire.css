@@ -29,6 +29,9 @@ img {
 .blackmirror {
 	content: url(blackmirror.jpg);
 }
+.entire2 {
+	content: url(entire2.jpg);
+}
 
 .box1 {
   background-color: black;
@@ -45,7 +48,7 @@ img {
 	flex-wrap: wrap;
 }
 .box3 {
-	background-color: #656161;
+	background-color: black;
 	height: 50%;
 	width: 50%;
   display: flex;
