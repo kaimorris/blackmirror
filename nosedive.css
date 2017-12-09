@@ -11,8 +11,27 @@ body {
 	font-family: proxima-nova, sans-serif;
 	font-style: normal;
 	font-weight: 700;
+	font-size: 50px;
 }
-
+.center-horizontal {
+  display: flex;
+	align-items:center;
+}
+.center-vertical {
+  display: flex;
+	justify-content: center;
+	height: inherit;
+}
+img {
+	max-height: 100%;
+	max-width: 100%;
+}
+.blackmirror {
+	content: url(blackmirror.jpg);
+}
+.nosedive2 {
+	content: url(nosedive.jpg);
+}
 .box1 {
   background-color: black;
 	height: 50%;
@@ -28,7 +47,7 @@ body {
 	flex-wrap: wrap;
 }
 .box3 {
-	background-color: #656161;
+	background-color: black;
 	height: 50%;
 	width: 50%;
   display: flex;
