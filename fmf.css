@@ -12,6 +12,13 @@ body {
 	font-style: normal;
 	font-weight: 700;
 }
+img {
+	max-height: 100%;
+	max-width: 100%;
+}
+.blackmirror {
+	content: url(blackmirror.jpg);
+}
 
 .box1 {
   background-color: black;
