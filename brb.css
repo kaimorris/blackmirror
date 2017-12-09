@@ -26,11 +26,11 @@ img {
 	max-height: 100%;
 	max-width: 100%;
 }
-.blackmirror2 {
-	content: url(blackmirror2.png);
+.blackmirror {
+	content: url(blackmirror.jpg);
 }
 .brb2 {
-	content: url(brb2.jpg);
+	content: url(brb2.png);
 }
 .video-container {
 	position:relative;
