@@ -11,10 +11,29 @@ body {
 	font-family: proxima-nova, sans-serif;
 	font-style: normal;
 	font-weight: 700;
+	font-size: 50px;
 }
-
+.center-horizontal {
+  	display: flex;
+	align-items:center;
+}
+.center-vertical {
+  	display: flex;
+	justify-content: center;
+	height: inherit;
+}
+img {
+	max-height: 100%;
+	max-width: 100%;
+}
+.blackmirror {
+	content: url(blackmirror.jpg);
+}
+.hated2 {
+	content: url(hated2.png);
+}
 .box1 {
-  background-color: black;
+  	background-color: black;
 	height: 50%;
 	width: 50%;
 	display: flex;
