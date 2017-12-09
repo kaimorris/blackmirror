@@ -29,7 +29,9 @@ img {
 .blackmirror {
 	content: url(blackmirror.jpg);
 }
-
+.fmf2 {
+	content: url(fmf.jpg);
+}
 .box1 {
   background-color: black;
 	height: 50%;
