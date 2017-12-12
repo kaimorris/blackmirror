@@ -11,16 +11,16 @@ img {
 	max-height: 100%;
 }
 a:link {
-	text-decoration: none;
-    	color: white;
+text-decoration: none;
+    color: white;
 }
 a:visited {
-	text-decoration: none;
-    	color: white;
+text-decoration: none;
+    color: white;
 }
 a:hover {
-	text-decoration: none;
-    	color: gray;
+text-decoration: none;
+    color: gray;
 }
 .text1:hover  {
 	opacity: 0;
@@ -90,54 +90,25 @@ a:hover {
 	display: block;
 	align-items: center;
 	justify-content: center;
-	  opacity: 0;
-	  position: absolute;
-	  top: 0px;
-	  left: 0px;
-	  font-weight: 50;
-	  font-size: 17px;
-	  color: white;
-	  background-color: black;
-	  height: 50%;
-	  width: 25%;
+  opacity: 0;
+  position: absolute;
+  top: 0vh;
+  left: 0vw;
+  font-weight: 50;
+  font-size: 17px;
+  color: white;
+  background-color: black;
+  height: 50%;
+  width: 25%;
+  overflow: hidden;
 }
 .text2 {
 	display: block;
 	align-items: center;
 	justify-content: center;
-	  opacity: 0;
-	  position: absolute;
-	  top: 0px;
-	  left: 25vw;
-	  font-weight: 50;
-	  font-size: 17px;
-	  color: white;
-	  background-color: black;
-	  height: 50%;
-	  width: 25%;
-}
-.text3 {
-	display: block;
-	align-items: center;
-	justify-content: center;
-	  opacity: 0;
-	  position: absolute;
-	  bottom: 0px;
-	  left: 0px;
-	  font-weight: 50;
-	  font-size: 17px;
-	  color: white;
-	  background-color: black;
-	  height: 50%;
-	  width: 25%;
-}
-.text4 {
-	display: block;
-	align-items: center;
-	justify-content: center;
   opacity: 0;
   position: absolute;
-  bottom: 0px;
+  top: 0vh;
   left: 25vw;
   font-weight: 50;
   font-size: 17px;
@@ -145,6 +116,39 @@ a:hover {
   background-color: black;
   height: 50%;
   width: 25%;
+  overflow: hidden;
+}
+.text3 {
+	display: block;
+	align-items: center;
+	justify-content: center;
+  opacity: 0;
+  position: absolute;
+  top: 50vh;
+  left: 0vw;
+  font-weight: 50;
+  font-size: 17px;
+  color: white;
+  background-color: black;
+  height: 50%;
+  width: 25%;
+  overflow: hidden;
+}
+.text4 {
+	display: block;
+	align-items: center;
+	justify-content: center;
+  opacity: 0;
+  position: absolute;
+  top: 50vh;
+  left: 25vw;
+  font-weight: 50;
+  font-size: 17px;
+  color: white;
+  background-color: black;
+  height: 50%;
+  width: 25%;
+  overflow: hidden;
 }
 .text5 {
 	display: block;
@@ -152,14 +156,15 @@ a:hover {
 	justify-content: center;
   opacity: 0;
   position: absolute;
-  top: 0px;
-  left: 960px;
+  top: 0vh;
+  left: 50vw;
   font-weight: 50;
   font-size: 17px;
   color: white;
   background-color: black;
   height: 50%;
   width: 25%;
+  overflow: hidden;
 }
 .text6 {
 	display: block;
@@ -167,14 +172,15 @@ a:hover {
 	justify-content: center;
   opacity: 0;
   position: absolute;
-  top: 0px;
-  right: 0px;
+  top: 0vh;
+  left: 75vw;
   font-weight: 50;
   font-size: 17px;
   color: white;
   background-color: black;
   height: 50%;
   width: 25%;
+  overflow: hidden;
 }
 .text7 {
 	display: block;
@@ -182,14 +188,15 @@ a:hover {
 	justify-content: center;
   opacity: 0;
   position: absolute;
-  bottom: 0px;
-  left: 960px;
+  top: 50vh;
+  left: 50vw;
   font-weight: 50;
   font-size: 17px;
   color: white;
   background-color: black;
   height: 50%;
   width: 25%;
+  overflow: hidden;
 }
 .text8 {
 	display: block;
@@ -197,14 +204,15 @@ a:hover {
 	justify-content: center;
   opacity: 0;
   position: absolute;
-  bottom: 0px;
-  right: 0px;
+  top: 50vh;
+  left: 75vw;
   font-weight: 50;
   font-size: 17px;
   color: white;
   background-color: black;
   height: 50%;
   width: 25%;
+  overflow: hidden;
 }
 .text {
 	color: white;
@@ -250,7 +258,7 @@ a:hover {
 }
 .left {
 	height: 100vh;
-	width: 50vw;
+	width: calc(100vw/2);
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -315,6 +323,237 @@ a:hover {
   	background-size: cover;
 	height: 50%;
 	width: 50%;
+}
+@media screen and (max-width: 1000px) {
+.left {
+width: 100vw;
+}
+	.box1 {
+	background-color: black;
+	height: 25vh;
+	width: 100vw;
+}
+	.box2 {
+	background-color: #656161;
+	height: 25vh;
+	width: 100vw;
+}
+	.box3 {
+	background-color: black;
+	height: 25vh;
+	width: 100vw;
+}
+	.box4 {
+	background-color: #656161;
+	height: 25vh;
+	width: 100vw;
+}
+.right {
+width: 100vw;
+}
+	.box5 {
+	background-color: black;
+	height: 25vh;
+	width: 100vw;
+}
+	.box6 {
+	background-color: #656161;
+	height: 25vh;
+	width: 100vw;
+}
+	.box7 {
+	background-color: black;
+	height: 25vh;
+	width: 100vw;
+}
+	.box8 {
+	background-color: #656161;
+	height: 25vh;
+	width: 100vw;
+}
+.text1:hover  {
+	opacity: 0;
+ }
+.box1:hover .text1 {
+	opacity: 1;
+	position: absolute;
+	transition: 1.5s ease;
+}
+.text2:hover  {
+	opacity: 0;
+ }
+.box2:hover .text2 {
+	opacity: 1;
+	position: absolute;
+	transition: 1.5s ease;
+}
+.text3:hover  {
+	opacity: 0;
+ }
+.box3:hover .text3 {
+	opacity: 1;
+	position: absolute;
+	transition: 1.5s ease;
+}
+.text4:hover  {
+	opacity: 0;
+ }
+.box4:hover .text4 {
+	opacity: 1;
+	position: absolute;
+	transition: 1.5s ease;
+}
+.text5:hover  {
+	opacity: 0;
+ }
+.box5:hover .text5 {
+	opacity: 1;
+	position: absolute;
+	transition: 1.5s ease;
+}
+.text6:hover  {
+	opacity: 0;
+ }
+.box6:hover .text6 {
+	opacity: 1;
+	position: absolute;
+	transition: 1.5s ease;
+}
+.text7:hover  {
+	opacity: 0;
+ }
+.box7:hover .text7 {
+	opacity: 1;
+	position: absolute;
+	transition: 1.5s ease;
+}
+.text8:hover  {
+	opacity: 0;
+ }
+.box8:hover .text8 {
+	opacity: 1;
+	position: absolute;
+	transition: 1.5s ease;
+}
+.text1 {
+	display: block;
+	align-items: center;
+	justify-content: center;
+  opacity: 0;
+  position: absolute;
+  top: 0vh;
+  left: 0vw;
+  font-weight: 50;
+  font-size: 10px;
+  color: white;
+  background-color: black;
+  height: 25vh;
+	width: 100vw;
+}
+.text2 {
+	display: block;
+	align-items: center;
+	justify-content: center;
+  opacity: 0;
+  position: absolute;
+  top: 25vh;
+  left: 0vw;
+  font-weight: 50;
+  font-size: 10px;
+  color: white;
+  background-color: black;
+  height: 25vh;
+  width: 100vw;
+}
+.text3 {
+	display: block;
+	align-items: center;
+	justify-content: center;
+  opacity: 0;
+  position: absolute;
+  top: 50vh;
+  left: 0vw;
+  font-weight: 50;
+  font-size: 10px;
+  color: white;
+  background-color: black;
+  height: 25vh;
+  width: 100vw;
+}
+.text4 {
+	display: block;
+	align-items: center;
+	justify-content: center;
+  opacity: 0;
+  position: absolute;
+  top: 75vh;
+  left: 0vw;
+  font-weight: 50;
+  font-size: 10px;
+  color: white;
+  background-color: black;
+  height: 25vh;
+  width: 100vw;
+}
+.text5 {
+	display: block;
+	align-items: center;
+	justify-content: center;
+  opacity: 0;
+  position: absolute;
+  top: 100vh;
+  left: 0vw;
+  font-weight: 50;
+  font-size: 10px;
+  color: white;
+  background-color: black;
+  height: 25vh;
+  width: 100vw;
+}
+.text6 {
+	display: block;
+	align-items: center;
+	justify-content: center;
+  opacity: 0;
+  position: absolute;
+  top: 125vh;
+  left: 0vw;
+  font-weight: 50;
+  font-size: 10px;
+  color: white;
+  background-color: black;
+  height: 25vh;
+  width: 100vw;
+}
+.text7 {
+	display: block;
+	align-items: center;
+	justify-content: center;
+  opacity: 0;
+  position: absolute;
+  top: 150vh;
+  left: 0vw;
+  font-weight: 50;
+  font-size: 10px;
+  color: white;
+  background-color: black;
+  height: 25vh;
+  width: 100vw;
+}
+.text8 {
+	display: block;
+	align-items: center;
+	justify-content: center;
+  opacity: 0;
+  position: absolute;
+  top: 175vh;
+  left: 0vw;
+  font-weight: 50;
+  font-size: 10px;
+  color: white;
+  background-color: black;
+  height: 25vh;
+  width: 100vw;
 }
 @media screen and (max-width: 800px) {
 .left {
@@ -433,14 +672,14 @@ width: 100vw;
 	justify-content: center;
   opacity: 0;
   position: absolute;
-  top: 0px;
-  left: 0px;
+  top: 0vh;
+  left: 0vw;
   font-weight: 50;
-  font-size: px;
+  font-size: 10px;
   color: white;
   background-color: black;
   height: 25vh;
-width: 100vw;
+	width: 100vw;
 }
 .text2 {
 	display: block;
@@ -448,14 +687,14 @@ width: 100vw;
 	justify-content: center;
   opacity: 0;
   position: absolute;
-  top: 0px;
-  left: 25vw;
+  top: 25vh;
+  left: 0vw;
   font-weight: 50;
-  font-size: 17px;
+  font-size: 10px;
   color: white;
   background-color: black;
-  height: 25%;
-  width: 25%;
+  height: 25vh;
+  width: 100vw;
 }
 .text3 {
 	display: block;
@@ -463,14 +702,14 @@ width: 100vw;
 	justify-content: center;
   opacity: 0;
   position: absolute;
-  bottom: 0px;
-  left: 0px;
+  top: 50vh;
+  left: 0vw;
   font-weight: 50;
-  font-size: 17px;
+  font-size: 10px;
   color: white;
   background-color: black;
-  height: 25%;
-  width: 25%;
+  height: 25vh;
+  width: 100vw;
 }
 .text4 {
 	display: block;
@@ -478,14 +717,14 @@ width: 100vw;
 	justify-content: center;
   opacity: 0;
   position: absolute;
-  bottom: 0px;
-  left: 25vw;
+  top: 75vh;
+  left: 0vw;
   font-weight: 50;
-  font-size: 17px;
+  font-size: 10px;
   color: white;
   background-color: black;
-  height: 25%;
-  width: 25%;
+  height: 25vh;
+  width: 100vw;
 }
 .text5 {
 	display: block;
@@ -493,14 +732,14 @@ width: 100vw;
 	justify-content: center;
   opacity: 0;
   position: absolute;
-  top: 0px;
-  left: 960px;
+  top: 100vh;
+  left: 0vw;
   font-weight: 50;
-  font-size: 17px;
+  font-size: 10px;
   color: white;
   background-color: black;
-  height: 50%;
-  width: 25%;
+  height: 25vh;
+  width: 100vw;
 }
 .text6 {
 	display: block;
@@ -508,14 +747,14 @@ width: 100vw;
 	justify-content: center;
   opacity: 0;
   position: absolute;
-  top: 0px;
-  right: 0px;
+  top: 125vh;
+  left: 0vw;
   font-weight: 50;
-  font-size: 17px;
+  font-size: 10px;
   color: white;
   background-color: black;
-  height: 50%;
-  width: 25%;
+  height: 25vh;
+  width: 100vw;
 }
 .text7 {
 	display: block;
@@ -523,14 +762,14 @@ width: 100vw;
 	justify-content: center;
   opacity: 0;
   position: absolute;
-  bottom: 0px;
-  left: 960px;
+  top: 150vh;
+  left: 0vw;
   font-weight: 50;
-  font-size: 17px;
+  font-size: 10px;
   color: white;
   background-color: black;
-  height: 50%;
-  width: 25%;
+  height: 25vh;
+  width: 100vw;
 }
 .text8 {
 	display: block;
@@ -538,14 +777,13 @@ width: 100vw;
 	justify-content: center;
   opacity: 0;
   position: absolute;
-  bottom: 0px;
-  right: 0px;
+  top: 175vh;
+  left: 0vw;
   font-weight: 50;
-  font-size: 17px;
+  font-size: 10px;
   color: white;
   background-color: black;
-  height: 50%;
-  width: 25%;
+  height: 25vh;
+  width: 100vw;
 }
 }
-
