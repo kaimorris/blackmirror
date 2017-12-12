@@ -43,5 +43,5 @@ function toggleMovieModeH(elem){
 	document.getElementById("opacity23").classList.toggle("opacity");
 	document.getElementById("opacity24").classList.toggle("opacity");
 }
-
+//The toggle movie mode function in the JS, assigns an id to a specofic div class in the HTML, so that when the user clicks on that specific div, the divs that have the assigned id, when become opaque. The opaque comes from the CSS, where I made a class called "opacity" and assigned that class an opaqueness ranging between 0 being off and 1 being on.
 
