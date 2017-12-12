@@ -1,4 +1,5 @@
-// These are all the different things you can do with audio files: https://www.w3schools.com/tags/ref_av_dom.asp
+//The toggle movie mode function in the JS, assigns an id to a specofic div class in the HTML, so that when the user clicks on that specific div, the divs that have the assigned id, when become opaque. The opaque comes from the CSS, where I made a class called "opacity" and assigned that class an opaqueness ranging between 0 being off and 1 being on.
+//Similarly to the MovieMode function, the function playGlass, also assigns an id to specific divs in the HTML, so that when the user clicks on that div, the audio called shatter.ogg, will play. Also, the audio plays because of the audio source tag that is imported in the HTML.
 
 function playGlass(e){
 	document.getElementById("glass-shatter").play();
@@ -43,5 +44,4 @@ function toggleMovieModeH(elem){
 	document.getElementById("opacity23").classList.toggle("opacity");
 	document.getElementById("opacity24").classList.toggle("opacity");
 }
-//The toggle movie mode function in the JS, assigns an id to a specofic div class in the HTML, so that when the user clicks on that specific div, the divs that have the assigned id, when become opaque. The opaque comes from the CSS, where I made a class called "opacity" and assigned that class an opaqueness ranging between 0 being off and 1 being on.
 
