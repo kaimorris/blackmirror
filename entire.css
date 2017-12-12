@@ -6,6 +6,9 @@ body {
 	display: flex;
 	flex-wrap: wrap;
 }
+.opacity {
+	opacity: 0.9;
+}
 .text {
 	color: white;
 	font-family: proxima-nova, sans-serif;
