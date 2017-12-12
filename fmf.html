@@ -11,15 +11,16 @@
 	<body>
 		
 			<div class="box1">
-		<video width="960" height="485" controls>
+		<video width="960" height="485" class="vidsize" controls>
 				<source src="bingspeech.mp4" type="video/mp4">
 				<source src="bingspeech.ogg" type="video/ogg">
 	</video>
 		</div>
-			<div class="box2 blackmirror"></div>
-    			<div class="box3 center-horizontal center-vertical text">MOVIE MODE</div>
-    			<div class="box4 fmf2">CLIP 4</div>
-			
+			<div class="box2 blackmirror" onclick="playGlass(this)" id="opacity2">CLIP 2</div>
+    			<div class="box3 text center-horizontal center-vertical" onclick="toggleMovieMode(this)" id="opacity1">MOVIE MODE</div>
+    			<div class="box4 fmf2 vidsize" id="opacity3"></div>
+			<audio src="shatter.mp3" type="audio/mp3" id="glass-shatter"></audio>
+			<script src="script.js"></script>
 	</body>
    
 </html>
